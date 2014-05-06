@@ -1,0 +1,5 @@
+PLUGINS USED IN GE-android:
+
+org.apache.cordova.dialogs (Cordova Notification Plugin)
+org.apache.cordova.file (Cordova File Plugin)
+plugin.http.request

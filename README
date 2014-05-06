@@ -1,0 +1,25 @@
+==ge-android==
+Using PhoneGap to run Go-Everywhere as a native app on Android.
+
+==Usage==
+To use ge-android, you must have these installed:
+
+*) The latest version of node.js
+*) The latest version of phonegap (sudo npm install -g phonegap)
+-Optional-
+*) A local clone of the Go-Everywhere repository (https://github.com/GoEverywhere/Go-Everywhere.git), and the environment variable $GE set to the root of the Go-Everywhere local repo
+
+Running the app:
+
+1) If this is the first time you are running the app on your computer (or you want to update the Go-Everywhere files to be put on the device), go run www/update_ge.sh
+[If you do not have $GE set, the script will download the latest version of Go-Everywhere from the Go-Everywhere repo]
+
+2) In a Terminal, browse to the location of ge-android, and run:
+phonegap run android
+
+3) For MacOSX users, if you want to do the above steps all in one gesture, run "android-run.command".
+
+See http://phonegap.com/ for more information about PhoneGap.
+
+==License==
+ge-android is open sourced and licensed under the GNU Lesser General Public License.
